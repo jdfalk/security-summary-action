@@ -17,12 +17,12 @@ Generate a comprehensive summary of security scan results for GitHub Actions wor
 
 ## Inputs
 
-| Input | Description | Required | Default |
-|-------|-------------|----------|---------|
-| `codeql-result` | CodeQL Analysis result status | No | `skipped` |
-| `dependency-review-result` | Dependency Review result status | No | `skipped` |
-| `security-audit-result` | Security Audit result status | No | `skipped` |
-| `trivy-result` | Trivy Scan result status | No | `skipped` |
+| Input                      | Description                     | Required | Default   |
+| -------------------------- | ------------------------------- | -------- | --------- |
+| `codeql-result`            | CodeQL Analysis result status   | No       | `skipped` |
+| `dependency-review-result` | Dependency Review result status | No       | `skipped` |
+| `security-audit-result`    | Security Audit result status    | No       | `skipped` |
+| `trivy-result`             | Trivy Scan result status        | No       | `skipped` |
 
 ## What It Does
 
@@ -36,12 +36,12 @@ Generate a comprehensive summary of security scan results for GitHub Actions wor
 ```
 ## Security Scan Summary
 
-| Scan Type | Status |
-|-----------|--------|
-| CodeQL Analysis | success |
+| Scan Type         | Status  |
+| ----------------- | ------- |
+| CodeQL Analysis   | success |
 | Dependency Review | skipped |
-| Security Audit | success |
-| Trivy Scan | success |
+| Security Audit    | success |
+| Trivy Scan        | success |
 
 ✅ **All security scans passed.**
 ```
