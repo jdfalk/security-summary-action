@@ -1,5 +1,5 @@
 <!-- file: TODO.md -->
-<!-- version: 1.0.0 -->
+<!-- version: 1.0.2 -->
 <!-- guid: 7b774a9b-bec5-418f-8d37-ec9a889db594 -->
 
 # TODO - security-summary-action
@@ -39,5 +39,6 @@ Generates security summary reports for CI workflows
 <!-- Add any additional context or notes here -->
 
 ---
-
+<!-- markdownlint-disable MD036 -->
 *This TODO.md was automatically generated on 2026-01-02*
+<!-- markdownlint-enable MD036 -->
